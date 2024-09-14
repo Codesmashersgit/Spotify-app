@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  }
+  
+  .image-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    
+  }
+  
+  .image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  
